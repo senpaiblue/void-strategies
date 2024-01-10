@@ -44,10 +44,10 @@ const Navbar = () => {
       }
 
       <div className={`lg:flex items-center justify-evenly gap-8 p-2 ${isMobileMenuOpen ? 'absolute top-10 flex flex-col items-start justify-start gap-5 w-44 py-5 right-4 shadow-xl z-50 rounded-lg bg-white' : 'hidden'}`}>
-        <Link onClick={() => setMobileMenuOpen(false)} href={"/"} className='w-full text-lg font-medium text-center text-[#5F2F90] md:hover:text-[#F58A23]'>Home</Link>
-        <Link onClick={() => setMobileMenuOpen(false)} href={"/Languages"} className='w-full text-lg font-medium text-center text-[#5F2F90] md:hover:text-[#F58A23]'>Langugaes</Link>
-        <Link onClick={() => setMobileMenuOpen(false)} href={"/Services"} className='w-full text-lg font-medium text-center text-[#5F2F90] md:hover:text-[#F58A23]'>Services</Link>
-        <Link onClick={() => setMobileMenuOpen(false)} href={"/AboutUs"} className='w-full text-lg font-medium text-center text-[#5F2F90] md:hover:text-[#F58A23] whitespace-nowrap'>About Us</Link>
+        <Link onClick={() => setMobileMenuOpen(false)} href={"/"} className='montserrat w-full text-lg font-medium text-center text-[#5F2F90] md:hover:text-[#F58A23]'>Home</Link>
+        <Link onClick={() => setMobileMenuOpen(false)} href={"/Languages"} className='montserrat w-full text-lg font-medium text-center text-[#5F2F90] md:hover:text-[#F58A23]'>Langugaes</Link>
+        <Link onClick={() => setMobileMenuOpen(false)} href={"/Services"} className='montserrat w-full text-lg font-medium text-center text-[#5F2F90] md:hover:text-[#F58A23]'>Services</Link>
+        <Link onClick={() => setMobileMenuOpen(false)} href={"/AboutUs"} className=' montserrat w-full text-lg font-medium text-center text-[#5F2F90] md:hover:text-[#F58A23] whitespace-nowrap'>About Us</Link>
         <Link onClick={() => setMobileMenuOpen(false)} href={"/ContactUs"} className="px-8 py-2 font-medium montserrat text-white text-center rounded-full bg-[#5F2F90] text-md whitespace-nowrap">
           Contact Us
         </Link>
