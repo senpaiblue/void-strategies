@@ -48,7 +48,7 @@ const Navbar = () => {
         <Link onClick={() => setMobileMenuOpen(false)} href={"/Languages"} className='montserrat w-full text-lg font-medium text-center text-[#5F2F90] md:hover:text-[#F58A23]'>Langugaes</Link>
         <Link onClick={() => setMobileMenuOpen(false)} href={"/Services"} className='montserrat w-full text-lg font-medium text-center text-[#5F2F90] md:hover:text-[#F58A23]'>Services</Link>
         <Link onClick={() => setMobileMenuOpen(false)} href={"/AboutUs"} className=' montserrat w-full text-lg font-medium text-center text-[#5F2F90] md:hover:text-[#F58A23] whitespace-nowrap'>About Us</Link>
-        <Link onClick={() => setMobileMenuOpen(false)} href={"/ContactUs"} className="px-8 py-2 font-medium montserrat text-white text-center rounded-full bg-[#5F2F90] text-md whitespace-nowrap">
+        <Link onClick={() => setMobileMenuOpen(false)} href={"/ContactUs"} className="px-8 py-2 font-medium montserrat text-white text-center rounded-full bg-[#5F2F90] text-md whitespace-nowrap hover:bg-[#F58A23]">
           Contact Us
         </Link>
 
