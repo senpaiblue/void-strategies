@@ -21,7 +21,7 @@ const Factors = () => {
             <div className="absolute max-w-auto text-white left-4 bottom-4">
               <p className="font-bold text-lg ">Our X Factors</p>
               <p className="font-bold text-white tracking-widest text-sm">
-                It's what makes us tick!
+              It&rsquo;s what makes us tick!
               </p>
             </div>
           </div>
@@ -57,7 +57,7 @@ const Factors = () => {
             <div className="absolute max-w-auto text-white left-16 bottom-48">
               <p className="font-bold text-6xl py-4">Our X Factors</p>
               <p className="font-bold text-white tracking-widest text-3xl">
-                It's what makes us tick!
+              It&rsquo;s what makes us tick!
               </p>
             </div>
           </div>
@@ -87,8 +87,7 @@ const Factors = () => {
               <Image src={orange} alt="orange" className="max-w-auto " />
             </div>
             <p className="absolute bottom-12 right-12 text-white text-xl font-semibold w-[20vw]">
-              When we partner, let’s value Innovation, Collaboration, Integrity
-              and Excellence.
+            When we partner, let&rsquo;s value Innovation, Collaboration, Integrity and Excellence.
             </p>
           </div>
         </div>
