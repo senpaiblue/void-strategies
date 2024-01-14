@@ -14,9 +14,9 @@ const Bring = () => {
       <Image
         src={bringPhone}
         alt="bring"
-        className="max-w-auto px-6 md:flex"
+        className="max-w-auto px-6 md:hiden lg:hidden"
       />
-      <h1 className="lg:px-32 font-semibold lg:text-xl px-5 text-center text-[#5F2F90]">
+      <h1 className="lg:px-32 font-semibold lg:text-xl px-5 lg:text-left text-center text-[#5F2F90]">
         From setting up brand your brand to bringing customers
       </h1>
     </div>
