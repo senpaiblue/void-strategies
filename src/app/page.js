@@ -4,6 +4,7 @@ import Hero from '@/components/Home/Hero'
 import LaunchPad from '@/components/Home/LaunchPad'
 import Factors from '@/components/Home/Factors'
 import Longer from '@/components/Home/Longer'
+import Bring from '@/components/Home/Bring'
 
 
 export default function Home() {
@@ -12,6 +13,7 @@ export default function Home() {
     <LaunchPad />
     <Factors />
     <Longer />
+    <Bring />
   </div>
   )
 }
