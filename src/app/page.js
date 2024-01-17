@@ -6,6 +6,7 @@ import Factors from '@/components/Home/Factors'
 import Longer from '@/components/Home/Longer'
 import Bring from '@/components/Home/Bring'
 import Do from '@/components/Home/Do'
+import Retain from '@/components/Home/Retain'
 
 
 export default function Home() {
@@ -16,6 +17,7 @@ export default function Home() {
     <Longer />
     <Bring />
     <Do />
+    <Retain />
   </div>
   )
 }
