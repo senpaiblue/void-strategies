@@ -5,6 +5,7 @@ import LaunchPad from '@/components/Home/LaunchPad'
 import Factors from '@/components/Home/Factors'
 import Longer from '@/components/Home/Longer'
 import Bring from '@/components/Home/Bring'
+import Do from '@/components/Home/Do'
 
 
 export default function Home() {
@@ -14,6 +15,7 @@ export default function Home() {
     <Factors />
     <Longer />
     <Bring />
+    <Do />
   </div>
   )
 }
