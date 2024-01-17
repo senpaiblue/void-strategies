@@ -46,7 +46,7 @@ const Bring = () => {
           </p>
         </div>
         <h1 className="montserrat  text-shadowBring w-full text-4xl font-bold text-center text-[#5F2F90] md:text-3xl lg:text-5xl lg:w-1/2 md:text-left lg:justify-between 2xl:text-7xl pt-4">
-          BRING 'EM IN
+        BRING &apos;EM IN
         </h1>
       </div>
     </div>
