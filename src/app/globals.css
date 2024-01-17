@@ -8,4 +8,7 @@
 .text-shadow {
   text-shadow: -4px 4px 0 rgba(245, 138, 35, 0.5); /* Customize the RGBA values to the desired color */
 }
+.text-shadowBring {
+  text-shadow: -4px 4px 0 rgba(179, 179, 179, 1); /* Customized shadow color */
+}
 
