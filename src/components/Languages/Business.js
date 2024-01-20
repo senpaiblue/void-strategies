@@ -17,7 +17,7 @@ const Business = () => {
             bridges between businesses and their global audiences. With our
             expertise, we provide a cultural compass that guides brands in
             navigating the complexities of international markets. Between Void
-            Strategies and it’s partnering brands, we share sixteen languages
+            Strategies and it&apos;s partnering brands, we share sixteen languages
           </p>
         </div>
       </div>
@@ -80,7 +80,7 @@ const Business = () => {
           </div>
         </div>
       </div>
-      <div className="p-4">
+      <div className="p-4 md:hidden">
         <div className="flex flex-col w-full">
           <h1 className="text-[#F58A23] font-bold text-2xl pb-4  text-center">
             Business with a Meaning
