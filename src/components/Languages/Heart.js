@@ -29,7 +29,7 @@ const Heart = () => {
           collaboration across various cultures and regions
         </p>
 
-      <div className="absolute w-[40vw] right-40 top-40 hidden md:block">
+      <div className="absolute w-[40vw] right-36 top-36 hidden md:block">
         <h1 className="text-white montserrat font-bold text-4xl pb-4">
           True Global at Heart
         </h1>
