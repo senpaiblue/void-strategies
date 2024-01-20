@@ -19,7 +19,7 @@ const Retain = () => {
       <h1 className="lg:px-32 montserrat font-semibold lg:text-xl px-5 lg:text-left text-center text-[#5F2F90] pb-8">
         Ensuring customer satisfaction and retention
       </h1>
-      <div className="lg:flex lg:flex-row lg:gap-12 lg:justify-end flex-col lg:items-center justify-center p-12 lg:p-0">
+      <div className="lg:flex lg:relative z-2 lg:top-20 lg:flex-row lg:gap-12 lg:justify-end flex-col lg:items-center justify-center p-12 lg:p-0">
         <div className="bg-[#5F2F90] flex flex-col items-center justify-center p-10 lg:max-w-[30%]">
           <h1 className="text-white montserrat font-bold text-2xl">NURTURE</h1>
           <p className="text-white montserrat font-medium text-lg text-center">

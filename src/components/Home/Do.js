@@ -21,18 +21,25 @@ const Do = () => {
       <h1 className="lg:px-32 montserrat font-semibold lg:text-xl px-5 lg:text-right text-center text-[#5F2F90] pb-8">
         Everything you need to “do the business”, smoothly!
       </h1>
-      <div className="lg:flex lg:flex-row lg:gap-12 lg:justify-start flex-col lg:items-center justify-center p-12 lg:p-0">
-        <div className="bg-[#ff8513] flex flex-col items-center justify-center p-12 lg:max-w-[25%]">
-          <h1 className="text-white montserrat font-bold text-2xl">OPTIMIZE</h1>
-          <p className="text-white montserrat font-medium text-lg text-center">
-            Improving your operations and processes for better efficiency
-          </p>
-        </div>
-        <div className="bg-[#ff8513] flex flex-col items-center justify-center p-8 lg:max-w-[25%]">
-          <h1 className="text-white montserrat font-bold text-2xl">INNOVATE</h1>
-          <p className="text-white montserrat font-medium text-lg text-center">
-            Develop new and creative ideas to set you apart from the competition
-          </p>
+      <div className="lg:relative lg:top-5 z-2">
+        <div className="lg:flex lg:flex-row lg:gap-12 lg:justify-start flex-col lg:items-center justify-center p-12 lg:p-0">
+          <div className="bg-[#ff8513] flex flex-col items-center justify-center p-12 lg:max-w-[30%]">
+            <h1 className="text-white montserrat font-bold text-2xl">
+              OPTIMIZE
+            </h1>
+            <p className="text-white montserrat font-medium text-lg text-center">
+              Improving your operations and processes for better efficiency
+            </p>
+          </div>
+          <div className="bg-[#ff8513] flex flex-col items-center justify-center p-12 lg:max-w-[30%]">
+            <h1 className="text-white montserrat font-bold text-2xl">
+              INNOVATE
+            </h1>
+            <p className="text-white montserrat font-medium text-lg text-center">
+              Develop new and creative ideas to set you apart from the
+              competition
+            </p>
+          </div>
         </div>
       </div>
       <div className="lg:flex items-center lg:justify-between justify-center p-12 lg:p-0">

@@ -36,9 +36,9 @@ const Hero = () => {
           className="flex items-center justify-center w-full md:justify-start "
         >
           <button
-            className={`bg-[#F58A23] hover:bg-[#ff8513] montserrat text-white  w-11/12 flex items-center justify-center px-5 py-2 rounded-full text-primary font-bold text-2xl  md:max-w-[30%] lg:max-w-[32%]`}
+            className="bg-[#F58A23] hover:bg-[#5F2F90] hover:border montserrat text-white  w-11/12 flex items-center justify-center px-5 py-2 rounded-full text-primary font-bold text-2xl  md:max-w-[30%] lg:max-w-[32%]"
           >
-            {" "}
+           
             Contact Us
           </button>
         </Link>
