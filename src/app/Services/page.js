@@ -1,3 +1,5 @@
+import Footer from '@/components/Footer'
+import Brand from '@/components/Services/Brand'
 import Hero from '@/components/Services/Hero'
 import Offer from '@/components/Services/Offer'
 import Service from '@/components/Services/Service'
@@ -9,6 +11,8 @@ const Services = () => {
       <Hero />
       <Offer />
       <Service />
+      <Brand />
+      <Footer />
     </div>
   )
 }
