@@ -38,14 +38,14 @@ const Story = () => {
           alt="backgroundOffer"
           className="w-full p-4 flex md:hidden"
         />
-        <div className="text-white font-normal leading-normal text-sm absolute left-4 right-4 top-32 p-4">
+        <div className=" absolute left-4 right-4 top-32 p-4">
         <h1 className="font-bold text-2xl text-white pb-1">
           Our Story
           </h1>
           <h2 className="font-semibold text-xl text-white pb-2">
           What makes us, us.
           </h2>
-          <p>
+          <p className="text-white font-normal leading-normal text-sm">
             The roots of Void Strategies are deeply entwined with the day-to-day
             realities of Small and Medium-Sized Enterprises (SMEs). Our journey
             began not within the confines of a traditional corporate setting,
