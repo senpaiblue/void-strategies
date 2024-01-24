@@ -32,10 +32,10 @@ const Giants = () => {
               undertake.
             </p>
             <p className="pt-6">
-              The wisdom and insights gained from Aarbee's extensive experience
-              are invaluable to us. Their guidance has been a guiding star,
-              helping us navigate the complexities of the business world with
-              confidence and precision. Their expertise in various domains
+              The wisdom and insights gained from Aarbee &apos;s extensive
+              experience are invaluable to us. Their guidance has been a guiding
+              star, helping us navigate the complexities of the business world
+              with confidence and precision. Their expertise in various domains
               provides us with a unique vantage point, enabling us to foresee
               industry trends and adapt our strategies accordingly
             </p>
@@ -53,19 +53,22 @@ const Giants = () => {
           Structures, a luminary in the field with over 25 years of experience
           and expertise. Their legacy is not just built on years but on a
           foundation of groundbreaking achievements and a relentless pursuit of
-          excellence. <br className="pb-2" />
-          Aarbee &apos;s journey, detailed at aarbeestructures.com, has been
-          marked by a steadfast commitment to quality, innovation, and an
-          unwavering dedication to client satisfaction. This aligns perfectly
-          with our ethos at Void Strategies, where we aspire to embody these
-          same values in every project and partnership we undertake.
-          <br />
-          The wisdom and insights gained from Aarbee's extensive experience are
-          invaluable to us. Their guidance has been a guiding star, helping us
-          navigate the complexities of the business world with confidence and
-          precision. Their expertise in various domains provides us with a
-          unique vantage point, enabling us to foresee industry trends and adapt
-          our strategies accordingly
+          excellence.{" "}
+          <p className="pt-2">
+            Aarbee &apos;s journey, detailed at aarbeestructures.com, has been
+            marked by a steadfast commitment to quality, innovation, and an
+            unwavering dedication to client satisfaction. This aligns perfectly
+            with our ethos at Void Strategies, where we aspire to embody these
+            same values in every project and partnership we undertake.
+          </p>
+          <p className="pt-2">
+            The wisdom and insights gained from Aarbee &apos;s extensive
+            experience are invaluable to us. Their guidance has been a guiding
+            star, helping us navigate the complexities of the business world
+            with confidence and precision. Their expertise in various domains
+            provides us with a unique vantage point, enabling us to foresee
+            industry trends and adapt our strategies accordingly
+          </p>
         </p>
       </div>
     </section>
