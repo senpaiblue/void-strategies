@@ -1,6 +1,8 @@
 import Giants from '@/components/About/Giants'
 import Hero from '@/components/About/Hero'
+import Last from '@/components/About/Last'
 import Story from '@/components/About/Story'
+import Footer from '@/components/Footer'
 import React from 'react'
 
 const AboutUs = () => {
@@ -9,6 +11,8 @@ const AboutUs = () => {
       <Hero/>
       <Story />
       <Giants />
+      <Last/>
+      <Footer/>
     </div>
   )
 }
