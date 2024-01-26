@@ -1,9 +1,14 @@
+import ContactInfo from '@/components/Contact/ContactInfo'
+import Hero from '@/components/Contact/Hero'
+import Para from '@/components/Contact/Para'
 import React from 'react'
 
 const ContactUs = () => {
   return (
     <div>
-      Contact Us
+      <Hero/>
+      <Para/>
+      <ContactInfo />
     </div>
   )
 }
