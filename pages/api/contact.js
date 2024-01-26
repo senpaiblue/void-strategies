@@ -1,9 +1,10 @@
+// pages/api/contact.js
 import nodemailer from 'nodemailer';
 import dotenv from 'dotenv';
 
 dotenv.config();
 
-export default async function handler(req, res) {
+const sendEmail = async (data) => {
   try {
     const transporter = nodemailer.createTransport({
       port: 465,
@@ -18,17 +19,31 @@ export default async function handler(req, res) {
     const mailData = {
       from: 't67409008@gmail.com',
       to: 'blueyw74@gmail.com',
-      subject: `Message From ${req.body.name}`,
-      text: `${req.body.message} | Sent from: ${req.body.email}`,
-      html: `<div>${req.body.message}</div><p>Company Name: ${req.body.company}</p><p>Sent from: ${req.body.email}</p>`,
+      subject: `Message From ${data.name}`,
+      text: `${data.message} | Sent from: ${data.email}`,
+      html: `<div>${data.message}</div><p>Company Name: ${data.company}</p><p>Sent from: ${data.email}</p>`,
     };
 
     const info = await transporter.sendMail(mailData);
     console.log(info);
 
-    res.status(200).json({ success: true, message: 'Email sent successfully' });
+    return { success: true, message: 'Email sent successfully' };
   } catch (error) {
     console.error(error);
-    res.status(500).json({ success: false, message: 'Internal server error' });
+    throw new Error('Internal server error');
+  }
+};
+
+export default async function handler(req, res) {
+  if (req.method === 'POST') {
+    try {
+      const result = await sendEmail(req.body);
+      res.status(200).json(result);
+    } catch (error) {
+      console.error(error);
+      res.status(500).json({ success: false, message: error.message });
+    }
+  } else {
+    res.status(405).json({ success: false, message: 'Method Not Allowed' });
   }
 }

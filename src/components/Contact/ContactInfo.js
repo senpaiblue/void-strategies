@@ -33,7 +33,7 @@ const ContactInfo = () => {
         setEmail("");
         setCompany("");
         setMessage("");
-        setBody("");
+        setSubmitted(true);
       }
     });
   };
