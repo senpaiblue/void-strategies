@@ -38,6 +38,10 @@ export default async function handler(req, res) {
   if (req.method === 'POST') {
     try {
       const result = await sendEmail(req.body);
+
+      // Wait for the email to be sent before sending the response
+      await new Promise((resolve) => setTimeout(resolve, 1000)); // Adjust delay as needed
+
       res.status(200).json(result);
     } catch (error) {
       console.error(error);
