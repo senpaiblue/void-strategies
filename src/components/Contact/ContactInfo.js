@@ -54,7 +54,7 @@ const ContactInfo = () => {
                 setName(e.target.value);
               }}
               placeholder="Enter your name"
-              className="border-[#5F2F90] border-2 text-[#5F2F90] rounded-xl px-24 py-6"
+              className="border-[#5F2F90] border-2 text-[#5F2F90] rounded-xl px-8 py-4"
             />
           </formGroup>
           <formGroup className="flex flex-col items-start">
@@ -68,7 +68,7 @@ const ContactInfo = () => {
                 setCompany(e.target.value);
               }}
               placeholder="Enter Company name"
-              className="border-[#5F2F90] text-[#5F2F90] border-2 rounded-xl px-24 py-6"
+              className="border-[#5F2F90] text-[#5F2F90] border-2 rounded-xl px-8 py-4"
             />
           </formGroup>
         </div>
@@ -87,7 +87,7 @@ const ContactInfo = () => {
                 setEmail(e.target.value);
               }}
               placeholder="Enter your mail"
-              className="border-[#5F2F90] text-[#5F2F90] border-2 rounded-xl md:px-80 md:py-6 px-24 py-6"
+              className="border-[#5F2F90] text-[#5F2F90] border-2 rounded-xl md:px-80 md:py-6 px-8 py-4"
             />
           </formGroup>
           <formGroup className="flex flex-col items-start">
@@ -104,7 +104,7 @@ const ContactInfo = () => {
                 setMessage(e.target.value);
               }}
               placeholder="Drop your message !!"
-              className="border-[#5F2F90] border-2 rounded-xl md:px-80 md:py-24 px-24 py-12"
+              className="border-[#5F2F90] border-2 rounded-xl md:px-80 md:py-24 px-8 py-8"
             />
           </formGroup>
         </div>
