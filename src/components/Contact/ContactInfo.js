@@ -54,7 +54,7 @@ const ContactInfo = () => {
                 setName(e.target.value);
               }}
               placeholder="Enter your name"
-              className="border-[#5F2F90] border-2 text-[#5F2F90] rounded-xl px-8 py-4"
+              className="border-[#5F2F90] border-2 text-[#5F2F90] rounded-xl md:px-24 md:py-6 px-8 py-4"
             />
           </formGroup>
           <formGroup className="flex flex-col items-start">
@@ -68,7 +68,7 @@ const ContactInfo = () => {
                 setCompany(e.target.value);
               }}
               placeholder="Enter Company name"
-              className="border-[#5F2F90] text-[#5F2F90] border-2 rounded-xl px-8 py-4"
+              className="border-[#5F2F90] text-[#5F2F90] border-2 rounded-xl md:px-24 md:py-6 px-8 py-4"
             />
           </formGroup>
         </div>
@@ -109,7 +109,7 @@ const ContactInfo = () => {
           </formGroup>
         </div>
         <button
-          className="text-white md:px-48 md:py-4 px-16 py-4 mt-4 rounded-xl bg-[#5F2F90] font-bold"
+          className="text-white md:px-48 md:py-4 px-16 py-4 mt-4 rounded-xl bg-[#5F2F90] font-bold hover:bg-[#F58A23]"
           onClick={(e) => {
             handleSubmit(e);
           }}

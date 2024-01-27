@@ -1,6 +1,7 @@
 import ContactInfo from '@/components/Contact/ContactInfo'
 import Hero from '@/components/Contact/Hero'
 import Para from '@/components/Contact/Para'
+import WhatsApp from '@/components/Contact/WhatsApp'
 import React from 'react'
 
 const ContactUs = () => {
@@ -9,6 +10,7 @@ const ContactUs = () => {
       <Hero/>
       <Para/>
       <ContactInfo />
+      <WhatsApp/>
     </div>
   )
 }

@@ -1,4 +1,4 @@
-// pages/api/contact.js
+
 import nodemailer from 'nodemailer';
 import dotenv from 'dotenv';
 
@@ -15,10 +15,10 @@ const sendEmail = async (data) => {
       },
       secure: true,
     });
-
+    console.log(transporter)
     const mailData = {
       from: 't67409008@gmail.com',
-      to: 'blueyw74@gmail.com',
+      to: 'anshuman9998@gmail.com',
       subject: `Message From ${data.name}`,
       text: `${data.message} | Sent from: ${data.email}`,
       html: `<div>${data.message}</div><p>Company Name: ${data.company}</p><p>Sent from: ${data.email}</p>`,
@@ -38,10 +38,6 @@ export default async function handler(req, res) {
   if (req.method === 'POST') {
     try {
       const result = await sendEmail(req.body);
-
-      // Wait for the email to be sent before sending the response
-      await new Promise((resolve) => setTimeout(resolve, 1000)); // Adjust delay as needed
-
       res.status(200).json(result);
     } catch (error) {
       console.error(error);
