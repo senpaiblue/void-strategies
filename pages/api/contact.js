@@ -15,17 +15,21 @@ const sendEmail = async (data) => {
       },
       secure: true,
     });
-    console.log(transporter)
+    console.log(transporter,process.env.password)
     const mailData = {
       from: 't67409008@gmail.com',
-      to: 'anshuman9998@gmail.com',
+      to: 'singhsakcham29@gmail.com',
       subject: `Message From ${data.name}`,
       text: `${data.message} | Sent from: ${data.email}`,
       html: `<div>${data.message}</div><p>Company Name: ${data.company}</p><p>Sent from: ${data.email}</p>`,
     };
 
-    const info = await transporter.sendMail(mailData);
-    console.log(info);
+    const sendMessage = async(mailData)=>{
+      const info = await transporter.sendMail(mailData);
+    }
+    await sendMessage(mailData);
+    // const info = await transporter.sendMail(mailData);
+    // console.log(info);
 
     return { success: true, message: 'Email sent successfully' };
   } catch (error) {
