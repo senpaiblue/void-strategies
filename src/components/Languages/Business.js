@@ -85,7 +85,7 @@ const Business = () => {
           <h1 className="text-[#F58A23] font-bold text-2xl pb-4  text-center">
             Business with a Meaning
           </h1>
-          <p className="text-[#5F2F90] text-center montserrat w-full font-normal montserrat text-sm">
+          <p className="text-[#5F2F90] text-center montserrat w-full font-normal text-sm">
             Language is the cornerstone of meaningful connections. At Void
             Strategies, we harness the power of diverse languages to build
             bridges between businesses and their global audiences. With our

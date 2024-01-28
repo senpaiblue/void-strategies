@@ -7,7 +7,7 @@ import React from 'react'
 
 const ContactUs = () => {
   return (
-    <div>
+    <div className='montserrat'>
       <Hero/>
       <Para/>
       <ContactInfo />

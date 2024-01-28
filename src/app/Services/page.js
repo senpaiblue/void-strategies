@@ -7,7 +7,7 @@ import React from 'react'
 
 const Services = () => {
   return (
-    <div>
+    <div className='montserrat'>
       <Hero />
       <Offer />
       <Service />

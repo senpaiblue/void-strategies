@@ -44,7 +44,7 @@ const ContactInfo = () => {
       <form className="flex flex-col items-center md:gap-8 w-full">
         <div className="flex md:flex-row flex-col items-center justify-between gap-4 md:gap-16">
           <formGroup className="flex flex-col items-start">
-            <label className="text-2xl font-bold text-[#5F2F90]" htmlFor="name">
+            <label className="text-2xl font-bold text-[#5F2F90] montserrat " htmlFor="name">
               Name
             </label>
             <input

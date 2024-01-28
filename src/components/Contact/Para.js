@@ -4,7 +4,7 @@ const Para = () => {
   return (
     <div className="bg-white md:px-16 md:py-12 p-5">
       <div className="bg-[#5F2F90] md:p-16 p-4 rounded-2xl">
-        <p className="text-white md:font-medium md:text-xl leading-normal">
+        <p className="text-white md:font-medium md:text-xl leading-normal montserrat">
           At Void Strategies, we&apos;re here to listen, collaborate, and turn
           your visions into reality. Whether you have a question, a project in
           mind, or just want to chat about the possibilities, we&apos;re all

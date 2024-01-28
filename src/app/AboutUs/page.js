@@ -7,7 +7,7 @@ import React from 'react'
 
 const AboutUs = () => {
   return (
-    <div>
+    <div className='montserrat'>
       <Hero/>
       <Story />
       <Giants />
