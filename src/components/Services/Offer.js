@@ -17,13 +17,13 @@ const Offer = () => {
           alt="backgroundOffer"
           className="w-full p-4 flex md:hidden"
         />
-        <div className="text-white absolute md:left-24 md:bottom-36 lg:bottom-40 lg:left-40">
+        <div className="text-white absolute md:left-24 md:bottom-36 lg:bottom-40 lg:left-36">
           <h1 className="text-white lg:text-6xl md:text-2xl font-bold">
             {" "}
             We Offer
           </h1>
         </div>
-        <p className="text-white font-medium leading-normal text-xl md:text-lg md:font absolute right-40 top-40 w-[50vw]">
+        <p className="text-white font-medium leading-normal text-xl md:text-2xl md:font-medium absolute right-40 top-40 w-[50vw]">
           Our services are uniquely designed to assist you in executing our
           &ldquo;Bring, Do, Retain&rdquo; philosophy, effectively eradicating
           business dysfunctions within your organization. Think of us as your

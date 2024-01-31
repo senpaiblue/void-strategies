@@ -15,14 +15,13 @@ const ServiceCard = ({ heading, paragraph }) => {
   const color = hover ? "#FFFFFF" : "#000000";
   const backgroundColor = hover ? "#5F2F90" : "#FFFFFF";
   return (
-    <div>
       <div
-        className=" border-[#5F2F90] border-2 flex flex-col md:p-4 p-2 rounded-xl"
+        className=" border-[#5F2F90] md:w-[260px] h-[200px] border-2 flex flex-col items-center justify-center md:px-4 p-2 rounded-xl"
         style={{ backgroundColor }}
         onMouseEnter={onHover}
         onMouseLeave={onHoverLeave}
       >
-        <div className="border-b border-[#F58A23] pb-2">
+        <div className="border-b border-[#F58A23] pb-2 items-center">
           <h1
             className="text-black font-medium md:font-semibold text-sm md:text-xl text-center"
             style={{ color }}
@@ -37,7 +36,7 @@ const ServiceCard = ({ heading, paragraph }) => {
           {paragraph}
         </p>
       </div>
-    </div>
+    
   );
 };
 

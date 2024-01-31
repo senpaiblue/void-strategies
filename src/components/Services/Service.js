@@ -113,10 +113,10 @@ const Service = () => {
           <Image
             src={lady}
             alt="lady"
-            className="absolute inset-0 m-auto w-4/12"
+            className="absolute inset-0 m-auto w-3/12"
           />
-          <div className="md:flex flex-col absolute top-20 left-10 gap-20 hidden">
-            <div className=" flex flex-row items-center justify-center gap-60">
+          <div className="md:flex flex-col absolute inset-0 m-auto top-20 px-16 gap-12 hidden">
+            <div className=" flex flex-row items-center justify-between">
               {services.map((services, index) => (
                 <ServiceCard
                   key={index}

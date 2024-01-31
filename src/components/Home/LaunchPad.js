@@ -31,7 +31,7 @@ const LaunchPad = () => {
         <h1 className="montserrat w-full text-xl font-bold text-white text-center md:text-3xl lg:text-3xl lg:w-1/2 md:text-left lg:text-right">
           What does that mean?
         </h1>
-        <h1 className="montserrat w-full px-2 text-sm font-medium text-center text-white md:text-4xl lg:text-2xl lg:w-[40%] md:text-right lg:justify-between">
+        <h1 className="montserrat w-full px-2 text-sm font-medium text-center text-white md:text-4xl lg:text-3xl lg:w-[40%] md:text-right lg:justify-between">
           Well, we bring together a community of brands, each specializing in a
           specific department, allowing us to have a workforce pool of creative
           thinkers, strategists, designers, developers, architects, analysts,

@@ -20,7 +20,7 @@ const Story = () => {
           <h2 className="font-semibold text-3xl text-white pb-4">
           What makes us, us.
           </h2>
-          <p className="text-white font-medium leading-normal text-xl md:text-">
+          <p className="text-white font-medium leading-normal text-2xl md:text-">
             {" "}
             The roots of Void Strategies are deeply entwined with the day-to-day
             realities of Small and Medium-Sized Enterprises (SMEs). Our journey
@@ -63,8 +63,8 @@ const Story = () => {
           alt="backgroundOffer"
           className="w-full px-20 hidden md:flex"
         />
-        <div className=" absolute right-80 top-40 w-[50vw]">
-          <p className="text-white font-medium leading-normal text-xl md:text-2xl">
+        <div className=" absolute right-80 top-36 w-[50vw]">
+          <p className="text-white font-medium leading-normal text-xl md:text-3xl">
             {" "}
             The roots of Void Strategies are deeply entwined with the day-to-day
             realities of Small and Medium-Sized Enterprises (SMEs). Our journey

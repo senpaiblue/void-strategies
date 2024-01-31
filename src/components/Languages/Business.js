@@ -8,10 +8,10 @@ const Business = () => {
       <div className=" hidden md:flex md:flex-row md:p-20">
         <Image src={kite} alt="kite" className="w-[30%]" />
         <div className="flex flex-col w-full">
-          <h1 className="text-[#F58A23] font-bold text-2xl pb-4  text-right">
+          <h1 className="text-[#F58A23] font-bold text-6xl pb-4  text-right">
             Business with a Meaning
           </h1>
-          <p className="text-[#5F2F90] text-right montserrat w-full font-normal montserrat text-lg">
+          <p className="text-[#5F2F90] text-right montserrat w-full font-normal montserrat text-xl">
             Language is the cornerstone of meaningful connections. At Void
             Strategies, we harness the power of diverse languages to build
             bridges between businesses and their global audiences. With our

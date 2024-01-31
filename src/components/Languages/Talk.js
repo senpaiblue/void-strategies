@@ -9,7 +9,7 @@ const Talk = () => {
     <div className="flex flex-row w-full items-center justify-between md:p-20 p-4 ">
       <Image src={phoneBg} alt="talk" className="md:flex hidden" />
       <Image src={phone} alt="talk" className="md:hidden flex w-[60%]" />
-      <div className="flex flex-col p-4 md:p-20">
+      <div className="flex flex-col md:items-center md:justify-center p-4 md:p-20">
         <h1 className="text-[#5F2F90] md:text-8xl font-bold text-2xl text-left md:pb-8 pb-2">
           Let&apos;s Talk?
         </h1>

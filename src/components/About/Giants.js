@@ -11,7 +11,7 @@ const Giants = () => {
           alt="backgroundOffer"
           className="w-full px-20 hidden md:flex"
         />
-        <div className=" absolute left-40 top-80 w-[60vw]">
+        <div className=" absolute left-40 top-48 w-[60vw]">
           <h1 className="font-bold text-6xl text-white pb-6">
             Guided by the Giants
           </h1>

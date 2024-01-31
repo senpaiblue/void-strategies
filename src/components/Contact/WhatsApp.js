@@ -12,10 +12,10 @@ const WhatsApp = () => {
       <div className="relative">
         <Image alt="image" src={Bg} className="hidden md:block" />
         <Image alt="image" src={PhoneBg2} className="block md:hidden" />
-        <div className=" absolute top-4 right-4 md:left-64 md:top-16 flex flex-col md:gap-2">
+        <div className=" absolute top-6 right-4 md:left-52 md:top-8 flex flex-col md:gap-2">
           <Link
             href={"mailto:info@voidstrategies.com"}
-            className="text-white text-lg md:text-2xl font-bold"
+            className="text-white text-sm md:text-2xl font-bold"
             target="_blank"
             montserrat
           >
@@ -23,7 +23,7 @@ const WhatsApp = () => {
           </Link>
           <Link
             href={"mailto:growth@voidstrategies.com"}
-            className="text-white md:text-2xl font-bold"
+            className="text-white text-sm md:text-2xl font-bold"
             target="_blank"
             montserrat
           >
@@ -31,7 +31,7 @@ const WhatsApp = () => {
           </Link>
           <Link
             href={"mailto:support@voidstrategies"}
-            className="text-white md:text-2xl font-bold"
+            className="text-white text-sm md:text-2xl font-bold"
             target="_blank"
             montserrat
           >
@@ -43,7 +43,7 @@ const WhatsApp = () => {
         <div className="relative">
           <Image alt="image" src={Bg2} className="hidden md:block" />
           <Image alt="image" src={PhoneBg1} className="md:hidden" />
-          <div className=" absolute md:left-16 md:top-8 right-8 top-4 text-xl flex flex-col gap-2 ">
+          <div className=" absolute md:left-16 md:top-16 right-8 top-4 text-xl flex flex-col gap-2 ">
             <Link
               href={"https://wa.me/+917563824249"}
               className="text-white md:text-2xl font-bold font-montserrat"

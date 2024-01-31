@@ -45,7 +45,7 @@ const Cultures = () => {
         <h2 className="text-[#F58A23] font-bold text-3xl pb-4">
           No, we don&apos;t translate languages
         </h2>
-        <p className="text-white montserrat w-[50vw] font-normal montserrat text-lg">
+        <p className="text-white montserrat w-[50vw] font-normal montserrat text-2xl">
           Language is the heart of cultural identity. Understanding this our
           team of linguistic experts ensures that every message resonates with
           its intended audience. This cultural sensitivity is at the core of our

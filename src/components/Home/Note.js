@@ -40,7 +40,7 @@ const Note = () => {
         </h1>
         <div className=" flex flex-col items-center p-20">
           <Link href={"/ContactUs"}>
-            <button className="bg-[#ff8513] px-8 py-4 text-3xl text-white rounded-full font-semibold hover:bg-[#5F2F90]">
+            <button className="bg-[#ff8513] px-8 py-4 text-3xl text-white rounded-full font-semibold hover:bg-[#5F2F90] whitespace-nowrap">
               Contact Us
             </button>
           </Link>

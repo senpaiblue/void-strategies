@@ -18,7 +18,7 @@ const Factors = () => {
               alt="factor"
               className="hiden max-w-auto "
             />
-            <div className="absolute max-w-auto text-white left-4 bottom-4">
+            <div className="absolute max-w-auto text-white left-4 bottom-2">
               <p className="font-bold text-lg ">Our X Factors</p>
               <p className="font-bold text-white tracking-widest text-sm">
               It&rsquo;s what makes us tick!
@@ -54,7 +54,7 @@ const Factors = () => {
         <div className="flex">
           <div className="max-w-[70%] relative">
             <Image src={factor} alt="factor" className="hiden max-w-auto " />
-            <div className="absolute max-w-auto text-white left-16 bottom-48">
+            <div className="absolute max-w-auto text-white left-12 bottom-32">
               <p className="font-bold text-6xl py-4">Our X Factors</p>
               <p className="font-bold text-white tracking-widest text-3xl">
               It&rsquo;s what makes us tick!
@@ -62,10 +62,10 @@ const Factors = () => {
             </div>
           </div>
           {/* left side */}
-          <div className="flex-col justify-between relative max-w-[40%]">
+          <div className="flex-col justify-between relative max-w-[45%]">
             <div className="flex-col items-center justify-center">
               <div className="flex items-center gap-4">
-                <p className="font-semibold text-xl text-[#5F2F90]">
+                <p className="font-semibold text-2xl text-[#5F2F90]">
                   Our mission is to usher growing brands to success through
                   innovation, creative thinking, and the right course of action.
                   With a client-centric approach and a commitment to excellence,
@@ -74,7 +74,7 @@ const Factors = () => {
                 <Image src={arrow} alt="arrow" className="w-2/6" />
               </div>
               <div className="flex items-center gap-4 mt-12">
-                <p className="font-semibold text-xl text-[#5F2F90]">
+                <p className="font-semibold text-2xl text-[#5F2F90]">
                   Our mission is to usher growing brands to success through
                   innovation, creative thinking, and the right course of action.
                   With a client-centric approach and a commitment to excellence,
@@ -86,7 +86,7 @@ const Factors = () => {
             <div className="absolute bottom-0 right-0">
               <Image src={orange} alt="orange" className="max-w-auto " />
             </div>
-            <p className="absolute bottom-12 right-12 text-white text-xl font-semibold w-[20vw]">
+            <p className="absolute bottom-16 right-16 text-white text-xl font-semibold w-[20vw]">
             When we partner, let&rsquo;s value Innovation, Collaboration, Integrity and Excellence.
             </p>
           </div>

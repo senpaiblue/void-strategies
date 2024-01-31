@@ -27,7 +27,7 @@ const Hero = () => {
         </h1>
         <h1 className="montserrat leading-normal text-shadow w-full text-4xl font-bold text-center text-white md:text-3xl lg:text-5xl lg:w-1/2 md:text-left lg:justify-between 2xl:text-7xl">
         BUSINESS <br />
-          CULTURES.
+        Dysfunction
         </h1>
         <Link
           href={"/ContactUs"}

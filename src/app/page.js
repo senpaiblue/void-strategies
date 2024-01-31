@@ -13,7 +13,7 @@ import Footer from '@/components/Footer'
 
 
 export default function Home() {
-  return (<div>
+  return (<div className='montserrat'>
     <Hero />
     <LaunchPad />
     <Factors />
