@@ -17,7 +17,7 @@ const Offer = () => {
           alt="backgroundOffer"
           className="w-full p-4 flex md:hidden"
         />
-        <div className="text-white absolute md:left-24 md:bottom-36 lg:bottom-40 lg:left-36">
+        <div className="text-white absolute md:left-24 md:bottom-40 lg:bottom-44 lg:left-36">
           <h1 className="text-white lg:text-6xl md:text-2xl font-bold">
             {" "}
             We Offer

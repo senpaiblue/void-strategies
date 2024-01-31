@@ -16,7 +16,7 @@ const ServiceCard = ({ heading, paragraph }) => {
   const backgroundColor = hover ? "#5F2F90" : "#FFFFFF";
   return (
       <div
-        className=" border-[#5F2F90] md:w-[260px] h-[200px] border-2 flex flex-col items-center justify-center md:px-4 p-2 rounded-xl"
+        className=" border-[#5F2F90] md:w-[300px] h-[200px] border-2 flex flex-col items-center justify-center md:px-4 p-2 rounded-xl"
         style={{ backgroundColor }}
         onMouseEnter={onHover}
         onMouseLeave={onHoverLeave}
