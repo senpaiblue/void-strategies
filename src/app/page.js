@@ -21,7 +21,6 @@ export default function Home() {
     <Bring />
     <Do />
     <Retain />
-    <Fun />
     <Note />
     <Footer />
   </div>
