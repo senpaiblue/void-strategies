@@ -15,7 +15,7 @@ const WhatsApp = () => {
         <div className=" absolute top-6 right-4 md:left-60 md:top-12 flex flex-col md:gap-2">
           <Link
             href={"mailto:info@voidstrategies.com"}
-            className="text-white text-sm md:text-2xl font-bold"
+            className="text-white text-sm md:text-xl font-bold"
             target="_blank"
             montserrat
           >
@@ -23,7 +23,7 @@ const WhatsApp = () => {
           </Link>
           <Link
             href={"mailto:growth@voidstrategies.com"}
-            className="text-white text-sm md:text-2xl font-bold"
+            className="text-white text-sm md:text-xl font-bold"
             target="_blank"
             montserrat
           >
@@ -31,7 +31,7 @@ const WhatsApp = () => {
           </Link>
           <Link
             href={"mailto:support@voidstrategies"}
-            className="text-white text-sm md:text-2xl font-bold"
+            className="text-white text-sm md:text-xl font-bold"
             target="_blank"
             montserrat
           >

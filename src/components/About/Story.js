@@ -17,7 +17,7 @@ const Story = () => {
           <h1 className="font-bold text-6xl text-white pb-2">
           Our Story
           </h1>
-          <h2 className="font-semibold text-3xl text-white pb-4">
+          <h2 className="font-semibold text-3xl text-white pb-8">
           What makes us, us.
           </h2>
           <p className="text-white font-medium leading-normal text-2xl md:text-">

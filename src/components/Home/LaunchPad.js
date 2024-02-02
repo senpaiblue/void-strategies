@@ -25,7 +25,7 @@ const LaunchPad = () => {
         />
       </div>
       <div className="absolute inset-0 flex flex-col items-center lg:justify-start justify-center lg:pt-36 w-full gap-5 px-6 lg:items-end sm:px-10 lg:px-20 pt-36 ">
-        <h1 className="montserrat w-full text-lg font-medium text-center text-white md:text-4xl lg:text-2xl lg:w-[40%] md:text-right lg:justify-between">
+        <h1 className="montserrat w-full text-lg font-bold text-center text-white md:text-4xl lg:text-3xl lg:w-[40%] md:text-right lg:justify-between">
           At Void Strategies, we are your trusted B2B Service Umbrella.
         </h1>
         <h1 className="montserrat w-full text-xl font-bold text-white text-center md:text-3xl lg:text-3xl lg:w-1/2 md:text-left lg:text-right">

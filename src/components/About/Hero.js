@@ -23,7 +23,7 @@ const Hero = () => {
       </div>
       <div className="relative z-20 flex flex-col items-center justify-center w-full gap-5 px-6 lg:items-start sm:px-10 lg:px-20 ">
         <h1 className="montserrat w-full text-3xl font-bold text-center text-white md:text-4xl lg:text-5xl lg:w-1/2 md:text-left lg:justify-between 2xl:text-5xl">
-        We &apos;re Cooking
+        We&apos;re Cooking
         </h1>
         <h1 className="montserrat text-shadow w-full text-4xl font-bold text-center text-white md:text-3xl lg:text-5xl lg:w-full md:text-left lg:justify-between 2xl:text-7xl">
         SUCCESS STORIES

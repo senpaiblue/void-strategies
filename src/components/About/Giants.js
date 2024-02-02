@@ -39,6 +39,19 @@ const Giants = () => {
               provides us with a unique vantage point, enabling us to foresee
               industry trends and adapt our strategies accordingly
             </p>
+            <p className="pt-6 w-[80vw]">
+              Leveraging this symbiotic relationship, Void Strategies is
+              positioned at the forefront of innovation, transforming the
+              age-old wisdom into actionable insights for our clients. This
+              collaboration empowers us to offer bespoke solutions that are at
+              the cutting edge of technological and strategic advancements. This
+              partnership ensures that our clients receive unparalleled support,
+              benefiting from decades of combined experience that span numerous
+              industries and challenges. Our alliance with Aarbee Structures is
+              a testament to our commitment to excellence and our dedication to
+              fostering growth and success for businesses in an ever-evolving
+              marketplace.
+            </p>
           </p>
         </div>
       </div>
@@ -60,6 +73,14 @@ const Giants = () => {
             unwavering dedication to client satisfaction. This aligns perfectly
             with our ethos at Void Strategies, where we aspire to embody these
             same values in every project and partnership we undertake.
+          </p>
+          <p className="pt-2">
+            The wisdom and insights gained from Aarbee &apos;s extensive
+            experience are invaluable to us. Their guidance has been a guiding
+            star, helping us navigate the complexities of the business world
+            with confidence and precision. Their expertise in various domains
+            provides us with a unique vantage point, enabling us to foresee
+            industry trends and adapt our strategies accordingly
           </p>
           <p className="pt-2">
             The wisdom and insights gained from Aarbee &apos;s extensive
