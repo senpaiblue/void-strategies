@@ -86,7 +86,7 @@ const Factors = () => {
             <div className="absolute bottom-0 right-0">
               <Image src={orange} alt="orange" className="max-w-auto " />
             </div>
-            <p className="absolute bottom-12 right-2 text-white text-3xl font-semibold w-[30vw]">
+            <p className="absolute bottom-16 right-2 text-white text-3xl font-semibold w-[25vw]">
             When we partner, let&rsquo;s value Innovation, Collaboration, Integrity and Excellence.
             </p>
           </div>
