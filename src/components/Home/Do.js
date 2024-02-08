@@ -23,7 +23,7 @@ const Do = () => {
       </h1>
       <div className="lg:relative lg:top-5 z-2">
         <div className="lg:flex lg:flex-row lg:gap-12 lg:justify-start flex-col lg:items-center justify-center p-12 lg:p-0">
-          <div className="bg-[#ff8513] flex flex-col items-center justify-center p-12 lg:max-w-[30%]">
+          <div className="bg-[#ff8513] flex flex-col mb-8 md:mb-0 items-center justify-center p-12 lg:max-w-[30%]">
             <h1 className="text-white montserrat font-bold text-2xl">
               OPTIMIZE
             </h1>

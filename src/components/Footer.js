@@ -6,16 +6,16 @@ import linkedin from "../../public/assets/Linkedin.svg"
 
 const Footer = () => {
   return (
-    <div className='md:flex hidden mt-12'>
-    <div className='bg-[#5F2F90] p-12 text-3xl font-bold text-white w-[70%]'>
+    <div className='flex md:mt-12'>
+    <div className='bg-[#5F2F90] text-lg p-4 md:p-12 md:text-3xl font-bold text-white w-[70%]'>
     © 2024 voidstrategies. All rights reserved.
     </div>
-    <div className='w-[30%] px-32 py-12 bg-[#ff8513]'> 
-    <div className='flex flex-row gap-0'>
+    <div className='w-[30%] px-4 py-4 md:px-32 md:py-12 bg-[#ff8513]'> 
+    <div className='flex flex-row md:gap-0 gap-4'>
     <Link
     href={'https://www.instagram.com/voidstrategies/'}
     target='_blank'
-    className='w-full'
+    className='w-full '
     >
     <Image
     src={Insta}

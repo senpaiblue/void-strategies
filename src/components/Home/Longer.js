@@ -25,7 +25,7 @@ const Longer = () => {
         />
       </div>
       {/* Text */}
-      <div className="flex items-center justify-center absolute lg:top-24 lg:left-24 top-48 px-6 left-2 lg:max-w-[40%]">
+      <div className="flex items-center justify-center absolute lg:top-24 lg:left-24 top-44 px-6 left-2 lg:max-w-[40%]">
         <p className="text-white font-semibold lg:text-4xl text-lg tracking-normal leading-normal">
           Amidst the market&rsquo;s rollercoaster, our commitment is to keep
           your show going, because we all know the best performances are the
@@ -33,7 +33,7 @@ const Longer = () => {
           <span className="text-[#F58A23] font-bold ml-2">LONGER.</span>
         </p>
       </div>
-      <div className="flex items-center justify-center absolute lg:bottom-24 lg:right-24 bottom-2 right-2 lg:max-w-[40%] px-6">
+      <div className="flex items-center justify-center absolute lg:bottom-24 lg:right-24 bottom-8 right-2 lg:max-w-[40%] px-6">
         <p className="text-white font-semibold lg:text-4xl text-lg tracking-normal leading-normal">
           Our 3-Step Philosophy of Bring, Do, and Retain drives sustainable
           growth, simply put we&rsquo;re here to help you extend the &apos;good

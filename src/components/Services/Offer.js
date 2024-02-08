@@ -47,7 +47,7 @@ const Offer = () => {
         <div className="text-white absolute top-16 left-20">
           <h1 className="text-white text-4xl font-bold"> We Offer</h1>
         </div>
-        <p className="text-white font-normal leading-normal text-[12px] absolute left-2 top-32 px-8 py-4 text-center">
+        <p className="text-white font-normal leading-normal text-[12px] absolute left-2 top-36 px-8 text-center">
           Our services are uniquely designed to assist you in executing our
           &ldquo;Bring, Do, Retain&rdquo; philosophy, effectively eradicating
           business dysfunctions within your organization. Think of us as your

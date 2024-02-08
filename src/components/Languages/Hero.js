@@ -6,7 +6,7 @@ import Link from "next/link";
 
 const Hero = () => {
   return (
-    <section className="relative  max-h-screen min-h-[80vh]  xl:min-h-[80vh] md:min-h-[70vh] flex items-start justify-center flex-col w-full py-12 md:py-0 lg:pt-8 2xl:py-10 ">
+    <section className="relative  max-h-screen min-h-[65vh]  xl:min-h-[80vh] md:min-h-[70vh] flex items-start justify-center flex-col w-full py-12 md:py-0 lg:pt-8 2xl:py-10 ">
       <div className="absolute top-0 left-0 z-10 w-full h-full">
         <Image
           src={Bg}
@@ -14,11 +14,11 @@ const Hero = () => {
           className="hidden object-cover w-full h-full md:block"
         />
       </div>
-      <div className="absolute top-0 left-0 z-10 w-full h-full">
+      <div className="absolute top-0 left-0 z-10 w-full h-[80vh]">
         <Image
           src={PhoneBg}
           alt="HeroPhone"
-          className="block object-cover w-full h-full max-h-full md:hidden" // Hide image on lg screens
+          className="block object-cover w-full h-[80%] max-h-[90%] md:hidden" // Hide image on lg screens
         />
       </div>
       <div className="relative z-20 flex flex-col items-center justify-center w-full gap-5 px-6 lg:items-start sm:px-10 lg:px-20 ">
