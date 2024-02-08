@@ -6,7 +6,7 @@ import linkedin from "../../public/assets/Linkedin.svg"
 
 const Footer = () => {
   return (
-    <div className='flex md:mt-12'>
+    <div className='flex mt-8 md:mt-12'>
     <div className='bg-[#5F2F90] text-lg p-4 md:p-12 md:text-3xl font-bold text-white w-[70%]'>
     © 2024 voidstrategies. All rights reserved.
     </div>
