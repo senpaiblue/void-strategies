@@ -20,6 +20,9 @@ const Footer = () => {
             <Link href={"/terms"}>
               <h3 className="text-white/[0.8]">Terms & Condition</h3>
             </Link>
+            <Link href={"/refund"}>
+              <h3 className="text-white/[0.8]">Refund Policy</h3>
+            </Link>
             <Link href={"/support"}>
               <h3 className="text-white/[0.8]">Customer Support</h3>
             </Link>

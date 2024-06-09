@@ -142,3 +142,43 @@ export const Terms =[
     "description": "If you have any questions about these Terms and Conditions, You can contact us: \nBy email: info@voidstrategies.com"
   }
 ]
+
+
+export const refundPolicy = [
+  {
+    heading: "",
+    description: "At Void Strategies, we prioritize transparency and clarity in all our client relationships, including our refund and cancellation policies. We understand the importance of flexibility and fairness in these matters. Therefore, we have a bespoke approach where refund and cancellation terms are outlined in the contract signed by each individual client. These terms will be strictly followed in the event that a refund or cancellation is requested."
+  },
+  {
+    heading: "Refund and Cancellation Terms",
+    description: ""
+  },
+  {
+    heading: "1. Contractual Agreement",
+    description: "All clients engaging with Void Strategies will enter into a contractual agreement outlining the terms and conditions of our services, including refund and cancellation policies. The specific refund and cancellation terms applicable to each client will be clearly stated in their individual contract."
+  },
+  {
+    heading: "2. Refund Process",
+    description: "Clients must refer to the refund terms outlined in their contract for details on eligibility, request process, approval criteria, and disbursement timelines. Requests for refunds must adhere to the procedures specified in the contract to be considered valid."
+  },
+  {
+    heading: "3. Cancellation Procedure",
+    description: "Clients wishing to cancel services must follow the cancellation procedure detailed in their contract. Void Strategies will honor cancellation requests in accordance with the terms agreed upon in the contract."
+  },
+  {
+    heading: "4. Client Responsibilities",
+    description: "It is the responsibility of the client to review and understand the refund and cancellation terms specified in their contract before engaging with Void Strategies. Clients are encouraged to seek clarification on any aspects of the refund and cancellation policies that they do not fully comprehend."
+  },
+  {
+    heading: "5. Contractual Compliance",
+    description: "Void Strategies will strictly adhere to the refund and cancellation terms stipulated in the client's contract. Any deviations from the agreed-upon terms will be addressed in accordance with the dispute resolution process outlined in the contract."
+  },
+  {
+    heading: "6. Contact Information",
+    description: "For inquiries related to refund and cancellation policies, clients should refer to the contact information provided in their contract or reach out to their designated point of contact at Void Strategies. By signing the contract with Void Strategies, clients acknowledge that they have reviewed and accepted the specific refund and cancellation terms outlined therein. These terms will govern any refund or cancellation requests made during the course of the engagement. For further details or assistance, please consult your contract or contact us at [contact email] or [phone number]."
+  },
+  {
+    heading: "",
+    description: "This policy underscores our commitment to fairness and client satisfaction by ensuring that refund and cancellation terms are tailored to meet the unique needs of each client and are clearly communicated in their contractual agreement with Void Strategies."
+  }
+];
