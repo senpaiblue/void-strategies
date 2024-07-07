@@ -27,6 +27,12 @@ const Footer = () => {
               <h3 className="text-white/[0.8]">Customer Support</h3>
             </Link>
           </div>
+          <div className="px-4 pb-4 text-white/[0.6]">
+          <p className="text-[12px] ">
+            Registered office ANMEG LAWLAB & TECHNOLOGIES LLP XVI/720, Cheeral
+            Road, Pattarupadi, Sulthan Bathery, Wayanad- 673592, Kerala, India
+          </p>
+          </div>
         </div>
       </div>
       <div className="w-[30%] px-4 py-4 md:px-32 md:py-12 bg-[#ff8513]">
